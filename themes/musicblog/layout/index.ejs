@@ -1,6 +1,9 @@
 <div class='row text-center'>
     <h1><%= config.author %></h1>
-    <p><%= config.subtitle %></p>
+
+    <% if(config.subtitle) { %>
+            <p><%= config.subtitle %></p>
+    <% } %>
 
 </div>
 <div class='row'>
@@ -13,7 +16,7 @@
                 </a>
             </h3>
             <div class='text-muted'>
-                <%= date(post.date, config.date_format) %> 
+                <%= date(post.date, config.date_format) %>
             </div>
 
             <% if(post.excerpt) { %>

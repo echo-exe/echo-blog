@@ -1,8 +1,13 @@
 body {
   background-image: url("../images/vinylrecord.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 25%;
+  background-repeat: repeat-x;;
+  background-position: right top;
+  background-size: 10%;
   background-attachment: fixed;
+}
 
+h1{
+  font-family:  'Droid Sans', sans-serif;
+  fonts-size: 72px;
+  
 }
