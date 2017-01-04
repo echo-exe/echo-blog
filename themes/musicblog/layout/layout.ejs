@@ -3,14 +3,30 @@
 
 <%- partial('_partials/head.ejs') %>
 
-<body>
 
-    <div class='container'>
-        <%- body %>
-    </div>
+    <body>
 
-    <h1> Hey and welcome to my music blog!</h1>
+        <div class='echobanner'>
+            <p>Echo</p>
+        </div>
 
-</body>
+        <div class='record'>
+            <img class='recordimage' src="/images/vinylrecord.jpg">
+        </div>
+
+        <div class='musicbanner'>
+            <p>Music</p>
+        </div>
+
+        <div class='header'>
+            <h1> Hey and welcome to my music blog!</h1>
+        </div>
+
+        <div class='container'>
+            <%- body %>
+        </div>
+
+
+    </body>
 
 </html>

@@ -1,13 +1,38 @@
-body {
-  background-image: url("../images/vinylrecord.jpg");
-  background-repeat: repeat-x;;
-  background-position: right top;
-  background-size: 10%;
-  background-attachment: fixed;
+.recordimage {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
 }
 
-h1{
-  font-family:  'Droid Sans', sans-serif;
-  fonts-size: 72px;
-  
+.header {
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 10px;
+    margin-top: 5px;
+    border-top: 2.5px solid;
+}
+
+.echobanner {
+    display: inline;
+    position: absolute;
+    margin-left: 175px;
+    margin-top: 0;
+    font-size: 72px;
+}
+
+.musicbanner {
+    display: inline;
+    position: absolute;
+    margin-left: 944px;
+    margin-top: -155px;
+    font-size: 72px;
+}
+
+.echobanner, .musicbanner {
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+
 }
